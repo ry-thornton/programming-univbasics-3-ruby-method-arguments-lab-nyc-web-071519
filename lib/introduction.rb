@@ -8,8 +8,7 @@ def introduction_with_language(name, language)
   puts message
 end
 
-language = "Ruby"
-def introduction_with_language_optional(name, language)
+def introduction_with_language_optional(name, language = "Ruby")
   message = "Hi, my name is #{name} and I am learning to program in #{language}."
   puts message
 end
